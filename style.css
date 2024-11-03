@@ -1,0 +1,31 @@
+button {
+  background-color: var(--bg-color); /* Couleur de fond */
+  color: var(--text-color); /* Couleur du texte */
+  padding: 10px 20px;
+  border: 2px solid var(--text-color); /* Bordure définie par la couleur du texte */
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out, transform 0.4s ease;
+}
+
+button:hover {
+  background-color: var(--text-color); /* Inversion des couleurs lors du survol */
+  color: var(--bg-color);
+  transform: scale(1.05); /* Légère mise en avant avec une transition plus longue */
+}
+
+button:active {
+  transform: scale(0.98); /* Réduction légère lors du clic */
+}
+
+button:disabled {
+  background-color: gray; /* Couleur désactivée */
+  color: white;
+  cursor: not-allowed; /* Curseur désactivé */
+}
+
+
+h1{
+  text-align: center;
+}

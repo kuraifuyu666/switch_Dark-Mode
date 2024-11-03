@@ -14,5 +14,3 @@ Toggle Background est une application web simple qui permet aux utilisateurs de 
 - HTML
 - CSS
 - JavaScript
-
-## Installation
